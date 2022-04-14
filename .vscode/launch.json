@@ -20,7 +20,7 @@
                 
         
     
-        Docker
+        chorme
         {
             "type": "pwa-Docker",
             "request": "launch",
