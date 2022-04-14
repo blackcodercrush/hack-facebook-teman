@@ -4,6 +4,7 @@
     // Daha fazla bilgi için şu adresi ziyaret edin: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         Docker
         debug
         launch
@@ -23,7 +24,7 @@
         {
             "type": "pwa-Docker",
             "request": "launch",
-            "name": "Launch Docker against localhost",
+            "name": "Launch debug against localhost",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
         }
