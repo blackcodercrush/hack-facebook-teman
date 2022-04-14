@@ -4,6 +4,7 @@
     // Daha fazla bilgi için şu adresi ziyaret edin: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        Docker
         debug
         launch
 
@@ -18,11 +19,11 @@
                 
         
     
-        chrome
+        Docker
         {
-            "type": "pwa-chrome",
+            "type": "pwa-Docker",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
+            "name": "Launch Docker against localhost",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
         }
