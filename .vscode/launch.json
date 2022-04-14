@@ -24,7 +24,7 @@
         {
             "type": "pwa-Docker",
             "request": "launch",
-            "name": "Launch Docker against localhost",
+            "name": "Launch chorme against localhost",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
         }
