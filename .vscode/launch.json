@@ -9,6 +9,28 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Debugger for Mainframe: CA INTERTEST™ FOR BATCH",
+            "type": "intertest-batch",
+            "request": "launch",
+            "programName": [
+                ""
+            ],
+            "protsym": [
+                ""
+            ],
+            "interTestHost": "",
+            "interTestPort": 0,
+            "interTestUserName": "",
+            "interTestSecure": true,
+            "convertedJCL": ""
+        },
+        {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "bin/main.dart"
+        },
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
