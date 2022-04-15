@@ -2,34 +2,17 @@
     // Olası öznitelikler hakkında bilgi edinmek için IntelliSense kullanın.
     // Mevcut özniteliklerin açıklamalarını görüntülemek için üzerine gelin.
     // Daha fazla bilgi için şu adresi ziyaret edin: https://go.microsoft.com/fwlink/?linkid=830387
+     {
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [       
-        
-        
-        
-     localhost
-
-        Docker
-        debug
-        launch
-
-        
-        adresi
-
-
-        Docker
-        
-
-        localhost
-                
-        
-    
-        Docker
+    "configurations": [
         {
-            "type": "pwa-Docker",
+            "type": "chrome",
             "request": "launch",
-            "name": "Launch chorme against localhost",
-            "url": "http://localhost:8080",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8000",
             "webRoot": "${workspaceFolder}"
         }
     ]
