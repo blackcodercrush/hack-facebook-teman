@@ -9,6 +9,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Debugger for Mainframe: CA INTERTEST™ FOR CICS",
+            "type": "intertest-cics",
+            "request": "launch",
+            "programName": [
+                ""
+            ],
+            "interTestHost": "",
+            "interTestPort": 0,
+            "interTestUserName": "",
+            "interTestSecure": true,
+            "cicsApplId": ""
+        },
+
+        {
             "name": "Attach to Chrome",
             "port": 9222,
             "request": "attach",
