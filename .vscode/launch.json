@@ -3,8 +3,8 @@
     // Mevcut özniteliklerin açıklamalarını görüntülemek için üzerine gelin.
     // Daha fazla bilgi için şu adresi ziyaret edin: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [
-        
+    55"configurations": [
+
         {
             "name": "Simulate iOS in browser",
             "type": "cordova",
