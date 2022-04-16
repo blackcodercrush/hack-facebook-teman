@@ -4,6 +4,125 @@
     // Daha fazla bilgi için şu adresi ziyaret edin: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+        {
+            "name": "Simulate iOS in browser",
+            "type": "cordova",
+            "request": "launch",
+            "platform": "ios",
+            "target": "chrome",
+            "simulatePort": 8000,
+            "livereload": true,
+            "cwd": "${workspaceFolder}",
+            "sourceMaps": true
+        },
+        {
+            "type": "scala",
+            "request": "attach",
+            "name": "Untitled",
+            "buildTarget": "???",
+            "hostName": "localhost",
+            "port": 5005
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Debugger for Mainframe: CA INTERTEST™ FOR BATCH",
+            "type": "intertest-batch",
+            "request": "launch",
+            "programName": [
+                ""
+            ],
+            "protsym": [
+                ""
+            ],
+            "interTestHost": "",
+            "interTestPort": 0,
+            "interTestUserName": "",
+            "interTestSecure": true,
+            "convertedJCL": ""
+        },
+        {
+            "name": "Debugger for Mainframe: CA INTERTEST™ FOR BATCH",
+            "type": "intertest-batch",
+            "request": "launch",
+            "programName": [
+                ""
+            ],
+            "protsym": [
+                ""
+            ],
+            "interTestHost": "",
+            "interTestPort": 0,
+            "interTestUserName": "",
+            "interTestSecure": true,
+            "convertedJCL": ""
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch",
+            "program": "${workspaceFolder}/<your program>",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Debugger for Mainframe: CA INTERTEST™ FOR BATCH",
+            "type": "intertest-batch",
+            "request": "launch",
+            "programName": [
+                ""
+            ],
+            "protsym": [
+                ""
+            ],
+            "interTestHost": "",
+            "interTestPort": 0,
+            "interTestUserName": "",
+            "interTestSecure": true,
+            "convertedJCL": ""
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "pwa-extensionHost"
+        },
+        {
+            "name": "Attach to running Android on emulator",
+            "type": "cordova",
+            "request": "attach",
+            "platform": "android",
+            "target": "emulator",
+            "port": 9222,
+            "sourceMaps": true,
+            "cwd": "${workspaceFolder}"
+        },
         {
             "type": "lldb",
             "request": "launch",
