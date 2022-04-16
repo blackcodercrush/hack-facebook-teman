@@ -14,9 +14,13 @@
             "simulatePort": 8000,
             "livereload": true,
             "cwd": "${workspaceFolder}",
-            "sourceMaps": true
+            "sourceMaps": true,
+            "configurations": [
+                
+            
+            ]
         },
-        {
+        {2
             "type": "scala",
             "request": "attach",
             "name": "Untitled",
